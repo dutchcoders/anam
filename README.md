@@ -6,6 +6,21 @@ We don't have real benchmarks but it should be possible to retrieve high benchma
 
 ANAM has done earned its miles by checking 10s of millions of sites for the specific /.git/HEAD configuration issue. More information about this project can be found at [http://internetsecure.today/](http://internetsecure.today).
 
+## Install from source
+
+### Install Golang
+
+If you do not have a working Golang environment setup please follow Golang Installation Guide.
+
+### Install ANAM
+
+Installation of ANAM is easy.
+
+```bash
+$ go get -u github.com/dutchcoders/anam
+$ ./anam
+```
+
 ## Alexa top 1M sites
 
 The Alexa top 1M sites can be downloaded here:
