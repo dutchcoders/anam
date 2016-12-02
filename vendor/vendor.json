@@ -1,0 +1,115 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "SWYhVIk10DEBg6AlYZAFvSKMu7o=",
+			"path": "github.com/bogdanovich/dns_resolver",
+			"revision": "8c2aece5b6f59475aecb061a3734966975c42b11",
+			"revisionTime": "2015-10-31T20:58:53Z"
+		},
+		{
+			"checksumSHA1": "3oR58O66Q5E7KGJRPN7/Vte5VXM=",
+			"path": "github.com/bradhe/stopwatch",
+			"revision": "857217349ee6cdfefae308dd33d15192cdcb8126",
+			"revisionTime": "2016-08-02T20:24:25Z"
+		},
+		{
+			"checksumSHA1": "/+JN4FZQ31J8rj3IZpFuLdn6i2c=",
+			"path": "github.com/dutchcoders/netstack",
+			"revision": "da50d0f6ee7c8f9f903cb6ef1ecbd405ad612f95",
+			"revisionTime": "2016-11-10T21:13:19Z"
+		},
+		{
+			"checksumSHA1": "qoJcqbTtnwmXHA+JJCFti+l2d/w=",
+			"path": "github.com/dutchcoders/netstack/ipv4",
+			"revision": "da50d0f6ee7c8f9f903cb6ef1ecbd405ad612f95",
+			"revisionTime": "2016-11-10T21:13:19Z"
+		},
+		{
+			"checksumSHA1": "XQ4DpKQ6MdwezSkOHk59iMHdaI0=",
+			"path": "github.com/dutchcoders/netstack/tcp",
+			"revision": "da50d0f6ee7c8f9f903cb6ef1ecbd405ad612f95",
+			"revisionTime": "2016-11-10T21:13:19Z"
+		},
+		{
+			"checksumSHA1": "XMJridupDnVRsxtwtd/KvoztIRs=",
+			"path": "github.com/dutchcoders/netstack/udp",
+			"revision": "d350540404836116340a0fdb8d604888ebc3d374",
+			"revisionTime": "2016-10-07T07:49:16Z"
+		},
+		{
+			"checksumSHA1": "x77xUarDfVxctJMAJPCQzlYk8JM=",
+			"path": "github.com/fatih/color",
+			"revision": "bf82308e8c8546dc2b945157173eb8a959ae9505",
+			"revisionTime": "2016-10-25T12:05:01Z"
+		},
+		{
+			"checksumSHA1": "ugnSryGF6VPBb5s87QgoRH6730g=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "6c903ff4aa50920ca86087a280590b36b3152b9c",
+			"revisionTime": "2016-09-30T08:41:57Z"
+		},
+		{
+			"checksumSHA1": "xZuhljnmBysJPta/lMyYmJdujCg=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8",
+			"revisionTime": "2016-08-06T12:27:52Z"
+		},
+		{
+			"checksumSHA1": "ZJ5DXgQ2R849Ou9bzjNRNPN0Ug8=",
+			"path": "github.com/miekg/dns",
+			"revision": "fc4e1e2843d86c346d7203160cfdbf14fa654a9b",
+			"revisionTime": "2016-10-06T10:00:29Z"
+		},
+		{
+			"checksumSHA1": "PH+YEwlxx+3MIswPEPNbYQRxFlU=",
+			"path": "github.com/minio/cli",
+			"revision": "2e10078e4de1ca37fb1bd62cc79ab87c024b3a1b",
+			"revisionTime": "2016-09-09T03:00:45Z"
+		},
+		{
+			"checksumSHA1": "BoXdUBWB8UnSlFlbnuTQaPqfCGk=",
+			"path": "github.com/op/go-logging",
+			"revision": "970db520ece77730c7e4724c61121037378659d9",
+			"revisionTime": "2016-03-15T20:05:05Z"
+		},
+		{
+			"checksumSHA1": "3c4yRg91RtG0yTo4C/F/22wxO5o=",
+			"path": "github.com/pkg/profile",
+			"revision": "030571e6da0f040a04e94a9af0dd8b6dd0cce0eb",
+			"revisionTime": "2016-09-23T22:49:49Z"
+		},
+		{
+			"checksumSHA1": "tK8eFmQ0JeKpR3P0TjiGobzlIh0=",
+			"path": "golang.org/x/net/bpf",
+			"revision": "9b4f494e787b16cdbea624b6975b99ddd8cc1ebf",
+			"revisionTime": "2016-10-07T04:33:30Z"
+		},
+		{
+			"checksumSHA1": "yRuyntx9a59ugMi5NlN4ST0XRcI=",
+			"path": "golang.org/x/net/internal/iana",
+			"revision": "9b4f494e787b16cdbea624b6975b99ddd8cc1ebf",
+			"revisionTime": "2016-10-07T04:33:30Z"
+		},
+		{
+			"checksumSHA1": "LVY0kRV5iwxDS3XQaBWxdzPemyc=",
+			"path": "golang.org/x/net/internal/netreflect",
+			"revision": "9b4f494e787b16cdbea624b6975b99ddd8cc1ebf",
+			"revisionTime": "2016-10-07T04:33:30Z"
+		},
+		{
+			"checksumSHA1": "d/1JqWMpGJsteZG2kkuy9ljaTWE=",
+			"path": "golang.org/x/net/ipv4",
+			"revision": "9b4f494e787b16cdbea624b6975b99ddd8cc1ebf",
+			"revisionTime": "2016-10-07T04:33:30Z"
+		},
+		{
+			"checksumSHA1": "aVgPDgwY3/t4J/JOw9H3FVMHqh0=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "c200b10b5d5e122be351b67af224adc6128af5bf",
+			"revisionTime": "2016-10-22T18:22:21Z"
+		}
+	],
+	"rootPath": "github.com/dutchcoders/anam"
+}
