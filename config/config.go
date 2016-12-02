@@ -19,7 +19,7 @@ type Config struct {
 	EnableProfiler bool   `flag:"profiler"`
 
 	Resolvers string `flag:"resolvers"`
-	Prefixes  string `flag:"prefixes"`
+	Prefix    string `flag:"prefix"`
 
 	Paths []string
 }

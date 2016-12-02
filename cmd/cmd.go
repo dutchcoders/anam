@@ -50,7 +50,7 @@ var globalFlags = []cli.Flag{
 		Value: "eth0",
 	},
 	cli.StringFlag{
-		Name:  "prefixes",
+		Name:  "prefix",
 		Usage: "",
 		Value: "www",
 	},
