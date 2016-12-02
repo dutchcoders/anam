@@ -65,7 +65,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "user-agent",
 		Usage: "",
-		Value: "anam mass scanner",
+		Value: "ANAM (github.com/dutchcoders/anam)",
 	},
 	cli.BoolFlag{
 		Name:  "profiler",
@@ -112,9 +112,9 @@ func New() *App {
 	// Set up app.
 	app := cli.NewApp()
 	app.Name = "anam"
-	app.Author = "Remco Verhoef"
+	app.Author = "Remco Verhoef (Dutchcoders)"
 	app.Usage = `anam "/.git/head" "/.svn/entries"`
-	app.Description = `ANAM: blabla`
+	app.Description = `ANAM: Mass http(s) scanner`
 	app.Flags = globalFlags
 	app.CustomAppHelpTemplate = helpTemplate
 	app.Commands = []cli.Command{}
