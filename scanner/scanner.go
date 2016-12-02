@@ -1,6 +1,6 @@
-package scanner
-
 // +build amd64,linux
+
+package scanner
 
 import (
 	"bufio"
@@ -149,7 +149,7 @@ func (a *Scanner) scan(host Host) {
 			break
 		}
 
-		var r io.Reader = io.TeeReader(conn, ioutil.Discard)
+		r := io.TeeReader(conn, ioutil.Discard)
 		if resp, err := http.ReadResponse(bufio.NewReader(r), nil); err != nil {
 			color.Red("Read response %s: %s", host, err.Error())
 			return
