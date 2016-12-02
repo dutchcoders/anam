@@ -45,6 +45,10 @@ cat top-1m.csv | awk -F, "{ print $2 }" | go run main.go --tls --port 443 --reso
 
 This software is alpha, expect bugs. Please report them using the issue tracker.
 
+## Benchmarks
+
+Should go here....
+
 ## Creators
 
 **Remco Verhoef**
