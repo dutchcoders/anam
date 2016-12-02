@@ -91,7 +91,7 @@ func (a *Scanner) resolve(ctx context.Context) {
 }
 
 func (a *Scanner) lookup(h string) {
-	prefixes := strings.Split(a.config.Prefixes, ",")
+	prefixes := strings.Split(a.config.Prefix, ",")
 	prefixes = append([]string{""}, prefixes...)
 
 	for _, prefix := range prefixes {
