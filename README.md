@@ -21,6 +21,20 @@ $ go get -u github.com/dutchcoders/anam
 $ ./anam
 ```
 
+## Usage
+
+Parameter | Description | Value
+--- | --- | ---
+prefix | comma seperated prefixes to prepend for domainname | www,portal,login
+port | port to use | 80(http) or 443(https)
+threads | amount of threads | 100
+timeout | timeout to wait for connection | 10
+interface | interface to use | eth0
+resolvers | dns resolver to use | 127.0.0.1 or 8.8.8.8
+user-agent | user-agent to identify scanner | anam (github.com/dutchcoders/anam)
+profiler | start go profiler on port 6060 |
+tls | use tls handshake |
+
 ## Alexa top 1M sites
 
 The Alexa top 1M sites can be downloaded here:
