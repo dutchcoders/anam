@@ -6,6 +6,8 @@ We don't have real benchmarks but it should be possible to retrieve high benchma
 
 ANAM has done earned its miles by checking 10s of millions of sites for the specific /.git/HEAD configuration issue. More information about this project can be found at [http://internetsecure.today/](http://internetsecure.today).
 
+The real magic happens in github.com/dutchcoders/netstack, this is the tcp implementation we're using.
+
 ## Install from source
 
 ### Install Golang
