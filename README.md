@@ -56,7 +56,7 @@ $ iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
 Now we can start the scanner using: 
 
 ```bash
-cat top-1m.csv | awk -F, "{ print $2 }" | go run main.go --tls --port 443 --resolver 127.0.0.1 "/.git/config" "/.svn/entries"
+cat top-1m.csv | awk -F, "{ print $2 }" | go run main.go --tls --port "443" --resolvers "127.0.0.1" "/.git/config" "/.svn/entries"
 ```
 
 This software is alpha, expect bugs. Please report them using the issue tracker.
